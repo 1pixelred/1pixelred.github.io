@@ -25,4 +25,4 @@ jobs:
           # ssh-keygen -t rsa -b 4096 -C "$(git config user.email)" -f gh-pages -N ""
           # deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
           personal_token: ${{ secrets.PERSONAL_TOKEN }}
-          publish_dir: ./dist
+          publish_dir: ./build
