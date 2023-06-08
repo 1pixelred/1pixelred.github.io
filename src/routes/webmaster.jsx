@@ -328,7 +328,7 @@ export default function Webmaster() {
               color="red"
               title="Domain added"
               disallowClose
-              sx={{ backgroundColor: "#3e0427", border: 0, color: "white" }}
+              sx={{ backgroundColor: "#3e0426", border: 0, color: "white" }}
               icon={<IconCheck size={20} />}
             >
               The domain of your website has been successfully added to the Flow
